@@ -1,0 +1,53 @@
+.snippet-form-container {
+  width: 100%;
+  max-width: 28rem; 
+  margin: 0 auto; 
+  padding: 1.5rem; 
+}
+
+.snippet-form-title {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  margin-bottom: 1.5rem; 
+}
+
+.snippet-form-grid {
+  display: grid;
+  gap: 1rem; 
+}
+
+.snippet-form-group {
+  display: grid;
+  gap: 0.375rem; 
+}
+
+.snippet-form-input,
+.snippet-form-textarea,
+.snippet-form-select {
+  width: 100%;
+  padding: 0.5rem; 
+  border: 1px solid #ccc; 
+  border-radius: 0.375rem; 
+  font-size: 1rem; 
+}
+
+.snippet-form-textarea {
+  min-height: 150px; 
+}
+
+.snippet-form-button {
+  width: 100%; 
+  padding: 0.75rem; 
+  background-color: #2563eb; 
+  color: white; 
+  border: none;
+  border-radius: 0.375rem; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.snippet-form-button:hover {
+  background-color: #1d4ed8;
+}
